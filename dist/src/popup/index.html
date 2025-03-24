@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>YouTube SideView</title>
+		<script type="module" crossorigin src="/src/popup/index.js"></script>
+		<link rel="modulepreload" crossorigin href="/style.js">
+		<link rel="stylesheet" crossorigin href="/style.css">
+	</head>
+	<body class="w-64 p-4">
+		<div class="text-center">
+			<h1 class="text-xl font-bold mb-2">YouTube SideView</h1>
+			<p class="text-sm mb-4">
+				Watch YouTube videos in the side panel while browsing other tabs.
+			</p>
+
+			<div id="no-video" class="p-4 bg-gray-200 rounded-md text-center">
+				<p class="text-sm">No active YouTube video found.</p>
+				<p class="text-xs mt-2">
+					Play a video on YouTube to use this extension.
+				</p>
+			</div>
+
+			<div id="video-info" class="hidden">
+				<div class="p-2 bg-gray-200 rounded-md mb-3">
+					<p id="video-title" class="text-sm font-medium truncate"></p>
+				</div>
+
+				<button id="open-sidepanel" class="btn btn-primary w-full mb-2">
+					Open in Side Panel
+				</button>
+			</div>
+		</div>
+
+	</body>
+</html>
