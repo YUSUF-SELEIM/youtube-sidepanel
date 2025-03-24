@@ -18,3 +18,6 @@ YouTube SidePanel is a Chrome extension that allows you to watch YouTube videos 
 
 - Switching to other tabs whilst still watching the video
 ![alt](./images/Screenshot%20from%202025-03-24%2003-39-35.png)
+
+## installation
+- load unpacked the dist folder into chrome
